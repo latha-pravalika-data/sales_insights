@@ -65,6 +65,11 @@ Import etl_process.sql into your MySQL environment.
 Open Sales_Insights.pbix in Power BI Desktop.
 Explore the dashboard and interact with insights.
 
+## Technologies Used
+- SQL (MySQL) 🗄️
+- Power BI 📊
+- Git & GitHub
+
 ## Key Insights
 
 -- Delhi NCR contributed the highest revenue 💰.
