@@ -43,7 +43,8 @@ Example:
 
 Here is a snapshot of the Power BI dashboard:  
 
-![Dashboard Overview](https://raw.githubusercontent.com/latha-pravalika-data/sales_insights/main/overview.png)
+![Dashboard Overview](https://raw.githubusercontent.com/latha-pravalika/sales_insights/main/overview.png)
+
 
 ## Project Structure
 sales_insights/
