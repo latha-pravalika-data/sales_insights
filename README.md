@@ -35,6 +35,7 @@ SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON trans
 ## 📸 Dashboard Preview
 
 Here is a snapshot of the Power BI dashboard:
+https://github.com/latha-pravalika-data/sales_insights/blob/main/overview.png?raw=true
 
 
 
