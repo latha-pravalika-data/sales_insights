@@ -32,14 +32,12 @@ SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date ON trans
 ```-- Formula to create norm_amount column
 = Table.AddColumn(#"Filtered Rows", "norm_amount", each if [currency] = "USD" or [currency] ="USD#(cr)" then [sales_amount]*75 else [sales_amount], type any)
 
-## 📸 Dashboard Preview
+## 📸 Dashboard Preview  
 
-Here is a snapshot of the Power BI dashboard:
-https://github.com/latha-pravalika-data/sales_insights/blob/main/overview.png?raw=true
+Here is a snapshot of the Power BI dashboard:  
 
-Here is a snapshot of the Power BI dashboard:
+![Dashboard Overview](https://raw.githubusercontent.com/latha-pravalika-data/sales_insights/main/overview.png)
 
-![Dashboard Overview](https://github.com/latha-pravalika-data/sales_insights/blob/main/overview.png?raw=true)
 
 
 
